@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon.ico" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta
+        name="description"
+        content="Prem Kamble is an Mobile App and Frontend developer."
+      />
+      <meta
+        name="keywords"
+        content= "Prem Kamble, Portfolio"
+      />
+  <title>Pr3m Kamble — Portfolio</title>
+
+  <!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="logo">P3.</div>
+       <div class="menu-toggle" id="menuToggle">☰</div>
+<ul class="nav-links" id="navLinks">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-left">
+      <h1 class="hero-title">pr3m kamble</h1>
+      <p class="hero-tag">Saving the Web — One Epic Project at a Time!</p>
+
+      <div class="cta-row">
+        <a href="#projects" class="btn primary">See Issues</a>
+        <a href="#contact" class="btn primary">Signal the Hero</a>
+      </div>
+
+      <!-- Comic speech bubble -->
+      <div id="speech" class="speech">Hey — check my work!</div>
+    </div>
+
+    <div class="hero-right">
+      <!-- Avatar (inline SVG for easy parallax) -->
+      <div id="avatarWrap" class="avatar-wrap" aria-hidden="true">
+  <img
+    id="heroAvatar"
+    src="assets/images/p3hero.png"
+    width="260"
+    height="260"
+    alt="Cartoon superhero version of Prem with P3 emblem"
+    loading="eager"
+    decoding="async"
+  />
+
+</div>
+
+
+      <!-- Comic "pow" element -->
+      <div id="pow" class="pow">BAM!</div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+   <section id="about" class="section about reveal">
+  <h2>Secret Identity</h2>
+  <div class="about-wrap">
+    <div class="about-panel">
+<p>
+  I'm <strong>pr3m</strong> — a Computer Engineering student and creative developer who loves bold visuals and lightning-fast code.<br>
+  I craft experiences that don’t just <em>work</em> — they make people smile.<br>
+  I blend delightful micro-interactions with solid engineering to deliver products that stand out.<br>
+  Every project is my mission: to build something beautiful, fast, and unforgettable.
+</p>
+     <ul>
+  <li><i class="fas fa-brain"></i> Focus: AI/ML app development, iOS & Android app development, front-end, interaction design</li>
+  <li><i class="fas fa-tools"></i> Tools: Python, TensorFlow, Flutter, Swift, Kotlin, HTML, CSS, JS, React, Vite</li>
+  <li><i class="fas fa-globe"></i> Based in India</li>
+  
+</ul>
+
+    </div>
+    <div class="about-art">
+      <img src="assets/images/image.png" alt="Cartoon version of pr3m" class="about-img">
+    </div>
+  </div>
+</section>
+
+
+  <!-- PROJECTS -->
+  <main>
+    <section id="projects" class="section projects reveal">
+      <h2>Latest Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-bubble">ISSUE #01</div>
+          <h3>Saving the Web</h3>
+          <p>A superhero-themed portfolio with bold visuals, smooth animations, and mobile-first design.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-bubble">ISSUE #02</div>
+          <h3>NASA-cosmicLookout</h3>
+          <p>NASA Space app challenge project.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-bubble">ISSUE #03</div>
+          <h3>CyberPortfolio</h3>
+          <p>My portfolio cyberpunk-retro UI</p>
+        </article>
+
+        <article class="card">
+          <div class="card-bubble">ISSUE #04</div>
+          <h3>Ai-magin Board</h3>
+          <p>Sketch a problem, let Gemini AI solve it.</p>
+        </article>
+
+         <article class="card">
+          <div class="card-bubble">ISSUE #05</div>
+          <h3>VPPCOE_CONNECTION</h3>
+          <p>A social media application for my college.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills reveal">
+      <h2>Super Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Java</div>
+        <div class="skill">Python</div>
+        <div class="skill">Swift</div>
+        <div class="skill">Flutter</div>
+        <div class="skill">Kotlin</div>
+      </div>
+    </section>
+
+    
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section gallery reveal">
+  <h2>Hero Gallery</h2>
+  <div class="gallery-grid">
+    <div class="thumb">
+      <img src="assets/images/nasa.png" alt="Superhero illustration 1">
+    </div>
+    <div class="thumb">
+      <img src="assets/images/wellcomepage.jpeg" alt="Superhero illustration 2">
+    </div>
+    <div class="thumb">
+      <img src="assets/images/stw.png" alt="Superhero illustration 1">
+    </div>
+    <div class="thumb">
+     <img src="assets/images/cyber.png" alt="Superhero illustration 1">
+    </div>
+  </div>
+</section>
+
+
+   <!-- CONTACT -->
+<section id="contact" class="section contact reveal">
+  <h2>Signal the Hero</h2>
+  <div class="contact-wrap">
+    <!-- Left Column: Contact Info -->
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <p class="comic-text">If you have a mission, project, or just want to say hello, drop me a line!</p>
+
+      <!-- Comic Style Social Links -->
+      <div class="comic-social-links">
+        <a href="https://github.com/pr3m-kamble" target="_blank" class="comic-btn"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/prem-kamble" target="_blank" class="comic-btn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com/pr3mstwt" target="_blank" class="comic-btn"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/pr3msig" target="_blank" class="comic-btn"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:premkamble099@gmail.com" class="comic-btn"><i class="fas fa-envelope"></i></a>
+        <a href="https://premkamble.bio.link/" target="_blank" class="comic-btn"><i class="fas fa-link"></i></a>
+      </div>
+    </div>
+
+  
+</section>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> pr3m • Portfolio</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
